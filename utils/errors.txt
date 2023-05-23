@@ -1,0 +1,142 @@
+# Generic
+No Error: 0
+Unknown Card Type: -1
+Invalid Card Number: -2
+Too Many Card Registered: -3
+Card Not Registered: -4
+Func Not Support: -5
+Invalid IO Channel: -6
+Invalid Ad Range: -7
+Cont IO Not Allowed: -8
+Diff Range Not Support: -9
+Last Channel Not Zero: -10
+Channel Not Descending: -11
+Channel Not Ascending: -12
+Open Driver Failed: -13
+Open Event Failed: -14
+Transfer Count Too Large: -15
+Not Double Buffer Mode: -16
+Invalid Sample Rate: -17
+Invalid Counter Mode: -18
+Invalid Counter: -19
+Invalid Counter State: -20
+Invalid Bin Bcd Param: -21
+Bad Card Type: -22
+Invalid Da Ref Voltage: -23
+Ad Time Out: -24
+No Async AI: -25
+No Async AO: -26
+No Async DI: -27
+No Async DO: -28
+Not Input Port: -29
+Not Output Port: -30
+Invalid DIO Port: -31
+Invalid DIO Line: -32
+Cont IO Active: -33
+Dbl Buf Mode Not Allowed: -34
+Config Failed: -35
+Invalid Port Direction: -36
+Begin Thread Error: -37
+Invalid Port Width: -38
+Invalid Ctr Source: -39
+Open File: -40
+Allocate Memory: -41
+Da Voltage Out Of Range: -42
+Lock Memory: -43
+DIO Data Width Error: -44
+Task Code Error: -45
+Trigger Count Error: -46
+Invalid Trigger Mode: -47
+Invalid Trigger Type: -48
+Invalid Counter Value: -50
+Invalid Event Handle: -60
+No Message Available: -61
+Event Message Not Added: -62
+Calibration Time Out: -63
+Undefined Parameter: -64
+Invalid Buffer ID: -65
+Invalid Sampled Clock: -66
+Invalid Operation Mode: -67
+# Driver API
+Config Ioctl: -201
+Async Set Ioctl: -202
+DB Set Ioctl: -203
+DB Half Ready Ioctl: -204
+Cont OP Ioctl: -205
+Cont Status Ioctl: -206
+PIO Ioctl: -207
+D Int Set Ioctl: -208
+Wait Evt Ioctl: -209
+Open Evt Ioctl: -210
+COS Int Set Ioctl: -211
+Mem Map Ioctl: -212
+Mem U Map Set Ioctl: -213
+CTR Ioctl: -214
+Get Res Ioctl: -215
+Cal Ioctl: -216
+PM Int Set Ioctl: -217
+# Jeff
+Access Violation Data Copy: -301
+No Module Found: -302
+Card ID Duplicated: -303
+Card Disconnected: -304
+Invalid Scanned Index: -305
+Undefined Exception: -306
+Invalid DIO Config: -307
+Invalid AO Cfg Ctrl: -308
+Invalid AO Trig Ctrl: -309
+Conflict With Sync Mode: -310
+Conflict With Fifo Mode: -311
+Invalid AO Iteration: -312
+Zero Channel Number: -313
+System Call Failed: -314
+Timeout From Sync Mode: -315
+Invalid Pulse Count: -316
+Invalid Delay Count: -317
+Conflict With Delay: -318
+AO Fifo Count Too Large: -319
+Conflict With Wave Repeat: -320
+Conflict With Re Trig: -321
+Invalid Trigger Channel: -322
+Invalid Input Signal: -323
+Invalid Conversion Src: -324
+Invalid Ref Voltage: -325
+Calibrate Failed: -326
+Invalid Cal Data: -327
+Chan Gain Queue Too Large: -328
+Invalid Card Type: -329
+Invalid Sync Mode: -330
+IIC Version: -331
+F Upgrade Failed: -332
+Invalid Read Count: -333
+TEDS Invalid Sensor No: -334
+TEDS Access Timeout: -335
+TEDS Checksum Failed: -336
+TEDS Not IEE: -337
+TEDS Invalid Template ID: -338
+TEDS Invalid Precision Value: -339
+TEDS Unsupported Template: -340
+TEDS Invalid Property ID: -341
+TEDS No Raw Data: -342
+Invalid Channel: -397
+Null Point: -398
+Invalid Param Setting: -399
+# Kernel
+AI Start Failed: -401
+AO Start Failed: -402
+Conflict With GPIO Config: -403
+EEPROM Readback: -404
+Conflict With Infinite Op: -405
+Waiting USB Host Response: -406
+AO Fifo Mode Timeout: -407
+Invalid Module Function: -408
+Ad Fifo Full: -409
+Invalid Transfer Count: -410
+Conflict With AI Config: -411
+DDS Config Failed: -412
+FPGA Access Failed: -413
+PLD Busy: -414
+PLD Timeout: -415
+Undefined Kernel Error: -420
+# Future
+Sync Mode Not Support: -501
