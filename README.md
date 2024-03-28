@@ -63,3 +63,19 @@
    source /usr/local/bin/virtualenvwrapper.sh
    ```
    Logout and log back in to terminal to source virtualenvwrapper config.
+
+## Compile UD-DASK/X Python wrapper
+1. Make virtualenv and compile the wrapper. The UD-DASK/X driver must be installed at this moment.  
+   ```bash
+   foo@bar:~$ mkvirtualenv BDudask
+   (BDudask) foo@bar:~$ cd BDudask
+   (BDudask) foo@bar:~$ pip install -r requirements.txt
+   (BDudask) foo@bar:~$ python ./udask_build.py
+   Compilation
+   generating ./_udask_cffi.c
+   the current directory is '/home/.../.../BDudask'
+   ```
+2. Check the operation of the wrapper. Make sure that USB DAQ device is connected to the PC.
+   ```bash
+   (BDudask) foo@bar:~$ python ./demo.py
+   ```
