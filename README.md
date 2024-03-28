@@ -76,6 +76,7 @@
    the current directory is '/home/.../.../BDudask'
    ```
 2. Check the operation of the wrapper. Make sure that USB DAQ device is connected to the PC.
+   Correct _card_type_ and possibly _card_num_ variable in `demo.py` and run the script.
    ```bash
    (BDudask) foo@bar:~$ python ./demo.py
    ```
